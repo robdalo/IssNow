@@ -6,6 +6,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\IssNow.Api.Core\IssNow.Api.Core.csproj" />
+    <ProjectReference Include="..\IssNow.Mapping\IssNow.Mapping.csproj" />
   </ItemGroup>
 
 </Project>

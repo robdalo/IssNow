@@ -2,7 +2,7 @@
 using IssNow.Api.Core.Repos.Interfaces;
 using IssNow.Api.Domain.Models;
 
-namespace IssNow.Api.Core
+namespace IssNow.Api.Core.Repos
 {
     public class LocationRepo : ILocationRepo
     {

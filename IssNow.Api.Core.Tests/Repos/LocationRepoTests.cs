@@ -1,5 +1,6 @@
 using IssNow.Api.Core.Consumers;
 using IssNow.Api.Core.Consumers.Interfaces;
+using IssNow.Api.Core.Repos;
 using IssNow.Api.Core.Repos.Interfaces;
 using NUnit.Framework;
 
