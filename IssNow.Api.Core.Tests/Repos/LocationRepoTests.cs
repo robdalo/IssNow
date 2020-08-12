@@ -1,5 +1,5 @@
-using IssNow.Api.Core.Consumers;
-using IssNow.Api.Core.Consumers.Interfaces;
+using IssNow.Api.Core.Consumers.OpenNotifyApi;
+using IssNow.Api.Core.Consumers.OpenNotifyApi.Interfaces;
 using IssNow.Api.Core.Repos;
 using IssNow.Api.Core.Repos.Interfaces;
 using NUnit.Framework;
@@ -9,13 +9,13 @@ namespace IssNow.Api.Core.Tests
     public class LocationRepoTests
     {
         private readonly ILocationRepo _locationRepo;
-        private readonly IOpenNotifyApiConsumer _apiConsumer;
+        private readonly IApiConsumer _apiConsumer;
 
         private const string BaseUrl = "http://api.open-notify.org";
 
         public LocationRepoTests()
         {
-            _apiConsumer = new OpenNotifyApiConsumer(BaseUrl);
+            _apiConsumer = new ApiConsumer(BaseUrl);
             _locationRepo = new LocationRepo(_apiConsumer);
         }
 
@@ -30,7 +30,7 @@ namespace IssNow.Api.Core.Tests
             var location = _locationRepo.GetCurrent();
 
             Assert.True(
-                location != null && location.message == "success"
+                location != null && location.Timestamp > 0
             );
         }
     }

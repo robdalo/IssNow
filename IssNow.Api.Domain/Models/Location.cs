@@ -1,11 +1,9 @@
-﻿using System;
-
-namespace IssNow.Api.Domain.Models
+﻿namespace IssNow.Api.Domain.Models
 {
     public class Location
     {
-        public long timestamp { get; set; }
-        public Position iss_position { get; set; }
-        public string message { get; set; }
+        public long Timestamp { get; set; }
+        public decimal Longitude { get; set; }
+        public decimal Latitude { get; set; }
     }
 }

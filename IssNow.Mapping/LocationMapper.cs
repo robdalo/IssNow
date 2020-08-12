@@ -6,9 +6,9 @@
         {
             var locationMapped = new Api.SDK.Models.Location
             {
-                Timestamp = location.timestamp,
-                Longitude = location.iss_position.longitude,
-                Latitude = location.iss_position.latitude
+                Timestamp = location.Timestamp,
+                Longitude = location.Longitude,
+                Latitude = location.Latitude
             };
 
             return locationMapped;

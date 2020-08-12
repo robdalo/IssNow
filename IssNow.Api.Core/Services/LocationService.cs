@@ -1,6 +1,6 @@
-﻿using IssNow.Api.Core.Repos.Interfaces;
+﻿using IssNow.Api.Domain.Models;
+using IssNow.Api.Core.Repos.Interfaces;
 using IssNow.Api.Core.Services.Interfaces;
-using IssNow.Api.Domain.Models;
 
 namespace IssNow.Api.Core.Services
 {

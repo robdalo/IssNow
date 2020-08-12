@@ -1,5 +1,5 @@
-﻿using IssNow.Api.Core.Consumers;
-using IssNow.Api.Core.Consumers.Interfaces;
+﻿using IssNow.Api.Core.Consumers.OpenNotifyApi;
+using IssNow.Api.Core.Consumers.OpenNotifyApi.Interfaces;
 using IssNow.Api.Core.Repos;
 using IssNow.Api.Core.Repos.Interfaces;
 using IssNow.Api.Core.Services;
@@ -19,7 +19,7 @@ namespace IssNow.Api.Core.Startup
 
         public void Configure(IServiceCollection services)
         {
-            services.AddSingleton<IOpenNotifyApiConsumer>(new OpenNotifyApiConsumer(_openNotifyApiBaseUrl));
+            services.AddSingleton<IApiConsumer>(new ApiConsumer(_openNotifyApiBaseUrl));
             services.AddSingleton<ILocationRepo, LocationRepo>();
             services.AddSingleton<ILocationService, LocationService>();
         }

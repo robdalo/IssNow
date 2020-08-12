@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace IssNow.Api.Domain
+﻿namespace IssNow.Api.Core.Models.OpenNotifyApi
 {
     public class Position
     {
