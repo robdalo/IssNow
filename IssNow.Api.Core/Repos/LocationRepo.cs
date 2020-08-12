@@ -1,17 +1,21 @@
-﻿using IssNow.Api.Core.Repos.Interfaces;
+﻿using IssNow.Api.Core.Consumers.Interfaces;
+using IssNow.Api.Core.Repos.Interfaces;
 using IssNow.Api.Domain.Models;
 
 namespace IssNow.Api.Core
 {
     public class LocationRepo : ILocationRepo
     {
-        public LocationRepo()
+        private readonly IOpenNotifyApiConsumer _apiConsumer;
+
+        public LocationRepo(IOpenNotifyApiConsumer apiConsumer)
         {
+            _apiConsumer = apiConsumer;
         }
 
         public Location GetCurrent()
         {
-            return null;
+            return _apiConsumer.GetIssNow();
         }
     }
 }
