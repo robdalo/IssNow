@@ -5,19 +5,19 @@ VisualStudioVersion = 16.0.30225.117
 MinimumVisualStudioVersion = 15.0.26124.0
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IssNow.Api", "IssNow.Api\IssNow.Api.csproj", "{5C7B3711-62FB-459A-A028-031CC59FDC67}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IssNow.Api.Core", "IssNow.Api.Core\IssNow.Api.Core.csproj", "{42B5CFB4-9B89-4820-ABC2-33F456257A4C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IssNow.Api.Core", "IssNow.Api.Core\IssNow.Api.Core.csproj", "{42B5CFB4-9B89-4820-ABC2-33F456257A4C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IssNow.Api.Core.Tests", "IssNow.Api.Core.Tests\IssNow.Api.Core.Tests.csproj", "{8117CC9E-0FCC-492B-96C9-BCD46185FABB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IssNow.Api.Core.Tests", "IssNow.Api.Core.Tests\IssNow.Api.Core.Tests.csproj", "{8117CC9E-0FCC-492B-96C9-BCD46185FABB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IssNow.Web", "IssNow.Web\IssNow.Web.csproj", "{DC9709AD-0C99-407C-A690-253A9C4B2A8A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IssNow.Api.Domain", "IssNow.Api.Domain\IssNow.Api.Domain.csproj", "{B5AC6E08-CA7B-4D15-8A5C-65CD68E2417D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IssNow.Api.Domain", "IssNow.Api.Domain\IssNow.Api.Domain.csproj", "{B5AC6E08-CA7B-4D15-8A5C-65CD68E2417D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IssNow.Api.SDK", "IssNow.Api.SDK\IssNow.Api.SDK.csproj", "{C1410F86-A560-452F-988F-A884EBE4F249}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IssNow.Api.SDK", "IssNow.Api.SDK\IssNow.Api.SDK.csproj", "{C1410F86-A560-452F-988F-A884EBE4F249}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IssNow.Mapping", "IssNow.Mapping\IssNow.Mapping.csproj", "{72379AFD-62A7-4636-8B96-7994CA661C06}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IssNow.Mapping", "IssNow.Mapping\IssNow.Mapping.csproj", "{72379AFD-62A7-4636-8B96-7994CA661C06}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IssNow.Mapping.Tests", "IssNow.Mapping.Tests\IssNow.Mapping.Tests.csproj", "{38F0C3A5-D542-490C-946C-ED5CA0082806}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IssNow.Mapping.Tests", "IssNow.Mapping.Tests\IssNow.Mapping.Tests.csproj", "{38F0C3A5-D542-490C-946C-ED5CA0082806}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IssNow.Web", "IssNow.Web\IssNow.Web.csproj", "{5504F50D-2255-4906-A04F-D64B8D0345D2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -65,18 +65,6 @@ Global
 		{8117CC9E-0FCC-492B-96C9-BCD46185FABB}.Release|x64.Build.0 = Release|Any CPU
 		{8117CC9E-0FCC-492B-96C9-BCD46185FABB}.Release|x86.ActiveCfg = Release|Any CPU
 		{8117CC9E-0FCC-492B-96C9-BCD46185FABB}.Release|x86.Build.0 = Release|Any CPU
-		{DC9709AD-0C99-407C-A690-253A9C4B2A8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{DC9709AD-0C99-407C-A690-253A9C4B2A8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{DC9709AD-0C99-407C-A690-253A9C4B2A8A}.Debug|x64.ActiveCfg = Debug|Any CPU
-		{DC9709AD-0C99-407C-A690-253A9C4B2A8A}.Debug|x64.Build.0 = Debug|Any CPU
-		{DC9709AD-0C99-407C-A690-253A9C4B2A8A}.Debug|x86.ActiveCfg = Debug|Any CPU
-		{DC9709AD-0C99-407C-A690-253A9C4B2A8A}.Debug|x86.Build.0 = Debug|Any CPU
-		{DC9709AD-0C99-407C-A690-253A9C4B2A8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{DC9709AD-0C99-407C-A690-253A9C4B2A8A}.Release|Any CPU.Build.0 = Release|Any CPU
-		{DC9709AD-0C99-407C-A690-253A9C4B2A8A}.Release|x64.ActiveCfg = Release|Any CPU
-		{DC9709AD-0C99-407C-A690-253A9C4B2A8A}.Release|x64.Build.0 = Release|Any CPU
-		{DC9709AD-0C99-407C-A690-253A9C4B2A8A}.Release|x86.ActiveCfg = Release|Any CPU
-		{DC9709AD-0C99-407C-A690-253A9C4B2A8A}.Release|x86.Build.0 = Release|Any CPU
 		{B5AC6E08-CA7B-4D15-8A5C-65CD68E2417D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{B5AC6E08-CA7B-4D15-8A5C-65CD68E2417D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B5AC6E08-CA7B-4D15-8A5C-65CD68E2417D}.Debug|x64.ActiveCfg = Debug|Any CPU
@@ -125,6 +113,18 @@ Global
 		{38F0C3A5-D542-490C-946C-ED5CA0082806}.Release|x64.Build.0 = Release|Any CPU
 		{38F0C3A5-D542-490C-946C-ED5CA0082806}.Release|x86.ActiveCfg = Release|Any CPU
 		{38F0C3A5-D542-490C-946C-ED5CA0082806}.Release|x86.Build.0 = Release|Any CPU
+		{5504F50D-2255-4906-A04F-D64B8D0345D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5504F50D-2255-4906-A04F-D64B8D0345D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5504F50D-2255-4906-A04F-D64B8D0345D2}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{5504F50D-2255-4906-A04F-D64B8D0345D2}.Debug|x64.Build.0 = Debug|Any CPU
+		{5504F50D-2255-4906-A04F-D64B8D0345D2}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{5504F50D-2255-4906-A04F-D64B8D0345D2}.Debug|x86.Build.0 = Debug|Any CPU
+		{5504F50D-2255-4906-A04F-D64B8D0345D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5504F50D-2255-4906-A04F-D64B8D0345D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5504F50D-2255-4906-A04F-D64B8D0345D2}.Release|x64.ActiveCfg = Release|Any CPU
+		{5504F50D-2255-4906-A04F-D64B8D0345D2}.Release|x64.Build.0 = Release|Any CPU
+		{5504F50D-2255-4906-A04F-D64B8D0345D2}.Release|x86.ActiveCfg = Release|Any CPU
+		{5504F50D-2255-4906-A04F-D64B8D0345D2}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

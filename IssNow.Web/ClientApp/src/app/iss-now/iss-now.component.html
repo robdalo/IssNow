@@ -1,0 +1,22 @@
+<h1 id="tableLabel">ISS Location</h1>
+
+<p>The current location of the ISS based on data provided by Open Notify API.</p>
+
+<p *ngIf="!location"><em>Loading...</em></p>
+
+<table class='table table-striped' aria-labelledby="tableLabel" *ngIf="location">
+  <thead>
+    <tr>
+      <th>Timestamp</th>
+      <th>Longitude</th>
+      <th>Latitude</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>{{ location.timestamp }}</td>
+      <td>{{ location.longitude }}</td>
+      <td>{{ location.latitude }}</td>
+    </tr>
+  </tbody>
+</table>
